@@ -1,0 +1,82 @@
+/* Global CSS */
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background: url(../img/background1.jpg)
+}	
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;	
+}
+
+
+/* Login Box */
+.login-box{
+	width: 350px;
+	background-color: #eee;
+	margin: 45px auto 0;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 9px #333;
+	background: url(../img/Background.jpg);
+
+}
+.avatar{
+	width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+.login-box h2{
+	text-align: center;
+	font-weight: 500;
+	padding: 15px 0px;
+}
+.form-group{
+	padding: 0px 0px 15px;
+}
+}
+.form-group label{
+	display: block;
+}
+.form-control{
+	height: 29px;
+    width: 93%;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #d0cfcf;
+}
+.btn-login{
+	
+	background-color: #4F92FF;
+    border: 1px solid #4F92FF;
+    color: white;
+    padding: 3px 11px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+    box-shadow: 0px 2px 9px #333;
+}
+.btn-login:hover{
+	cursor: pointer;
+	background-color: #D7AF3A;
+	border: 1px solid #D7AF3A;
+	box-shadow: 0px 2px 9px #333;
+
+}
+.login-box ul{
+	padding: 0;
+}
+.login-box ul li{
+	list-style: none;
+	font-size: 14px;
+
+}
+
+
+
